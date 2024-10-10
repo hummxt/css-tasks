@@ -1,0 +1,246 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+}
+
+.container {
+    height: 100vh;
+    background-image: url(images/azarbrau.jpg);
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 200px;
+    background-color: black;
+    height: 13%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+
+nav .information {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+
+nav a {
+    color: white;
+}
+
+nav .logo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+
+nav .icons {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 20px;
+    margin-right: 40px;
+}
+
+.main {
+    height: 77vh;
+}
+
+.azarbrau-text {
+    color: white;
+    text-align: center;
+    margin: auto;
+    width: 55%;
+    margin-top: 80px;
+}
+
+.azarbrau-text .lorem {
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.main .serab {
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin-top: 28vh;
+}
+
+.serab h2 {
+    font-family: 150;
+}
+
+.main .serab .lorem1 {
+    width: 40%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.second {
+    background: beige;
+}
+
+.container .product {
+    width: 85%;
+    margin: auto;
+}
+
+.product .information {
+    text-align: center;
+}
+
+.product .aboutus {
+    width: 25%;
+}
+
+.aboutus {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+  
+.aboutus .information {
+    margin-top: 90px;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 100px 0;
+}
+
+.information .aboutus-text {
+    font-size: 35px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(139, 91, 0);
+}
+
+.information h6 {
+    font-size: 14px;
+    font-weight: 550;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.information p {
+    font-size: 14px;
+}
+
+.information .aboutus-text, .information h3, .information h6, .information p {
+    margin-bottom: 20px;
+}
+
+
+.information button {
+    background-color: transparent;
+    border: 1.6px solid orange;
+    width: 160px;
+    height: 40px;
+    border-radius: 6px;
+    color: orange;
+    cursor: pointer;
+}
+
+.product .images {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.images .product-bg {
+    background-color: orange;
+    border-radius: 50%;
+    width: 50%;
+    height: 60%;
+}
+
+.product-bg .serablar {
+    margin-left: 54px;
+}
+
+.images img  {
+    width: 100px;
+    margin-bottom: -60px;
+    margin-left: -35px;
+    padding-top: 30px;
+}
+
+.images .serablar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 40%;
+    transform: translateX(-50%);
+}
+  
+.agac {
+    width: 50%;
+}
+
+.mehsullar h1 {
+    margin-bottom: 40px;
+}
+
+.mehsullar {
+    text-align: center;
+    margin: 20px 0;
+}
+  
+.products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.products img {
+    margin: 0 90px; 
+    height: 348px; 
+}
+
+.arrow {
+    font-size: 24px;
+    color: #ffcf24;
+    cursor: pointer;
+}
+  
+.arrow:first-child {
+    margin-right: 20px;
+}
+  
+.arrow:last-child {
+    margin-left: 20px;
+}
+  
+.melumatlar h4, .melumatlar h5, .melumatlar p {
+    margin-top: 10px;
+}
+
+.melumatlar button {
+    background-color: transparent;
+    border: 1.6px solid orange;
+    width: 160px;
+    height: 40px;
+    border-radius: 6px;
+    color: orange;
+    cursor: pointer;
+    margin-top: 20px;
+}

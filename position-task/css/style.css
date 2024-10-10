@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100vh;
+}
+
+header {
+    padding: 25px;
+    background-color: teal;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 5rem;
+}
+
+.fa-cart-shopping {
+    padding: 20px 30px;
+    border-radius: 24px;
+    cursor: pointer;
+    background-color: black;
+}
+
+.cart-number {
+    position: absolute;
+    top: 16px;
+    right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+nav {
+    position: sticky;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-family: 750;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.landscapes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding-top: 30px;
+}
+
+.menzere {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    border-radius: 10px;
+    cursor: pointer;
+    gap: 5px;
+    padding: 5px;
+    border: 2px solid teal;
+}
+
+.menzere img {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+image {
+    width: 100%;
+}
+
+.land {
+    color: teal;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landtext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.foot {
+    position: relative;
+    top: 32rem;
+}
+
+.foot p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.scrollTop {
+    position: fixed;
+    right: 3%;
+    top: 85%;
+    z-index: 9;
+}
+
+.fa-circle-chevron-up {
+    color: teal;
+    font-size: 3rem;
+    transition: all 0.5s ease-in-out;
+    border-radius: 50%;
+}
